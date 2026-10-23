@@ -1,0 +1,67 @@
+body {
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+}
+
+.screen {
+  width: 320px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+
+  .title {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+  }
+
+  .task {
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+  }
+
+  .gateway-box {
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .notes {
+    margin: 20px 0;
+    font-size: 14px;
+  }
+}
+
+.icon {
+  width: 25px;
+}
